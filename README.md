@@ -21,7 +21,7 @@ There are no prerequisites needed to play this game. You only need a web browser
 
 ### Installation
 
-1. Clone the repository: `git clone https://github.com/<username>/<repository>.git`
+1. Clone the repository: `git clone https://github.com/ManInTh3Middl3/simple_tik_tak_toe.git`
 2. Open `index.html` in your web browser.
 
 ## Gameplay

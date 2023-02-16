@@ -1,0 +1,43 @@
+﻿#game-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    width: 300px;
+    height: 300px;
+    border: 2px solid black;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.center {
+    text-align: center;
+    font-size: 4em;
+}
+
+.square {
+    font-size: 72px;
+    text-align: center;
+    line-height: 100px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.x, .o {
+    background-color: transparent;
+    /* your other styles here */
+}
+/* style the X's and O's */
+.x {
+    color: red;
+}
+
+.o {
+    color: blue;
+}
